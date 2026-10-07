@@ -1,7 +1,7 @@
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-endpoint = "https://ai-901-demo2-proj-resource.services.ai.azure.com/openai/v1"
+endpoint = "END POINT URL"
 deployment_name = "gpt-4.1-mini"
 token_provider = get_bearer_token_provider(DefaultAzureCredential(), "https://ai.azure.com/.default")
 
